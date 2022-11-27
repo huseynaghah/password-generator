@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 10px;
+}
+
+.container{
+    width: 450px;
+    height: 450px;
+    padding: 2px;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    color: white;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result{
+    width: 250px;
+    height: 40px;
+    
+}
+
+#resultpass{
+    width: 70%;
+    height: 40px;
+    background: none;
+    border: 1px solid white;
+    font-family: inherit;
+    color: white;
+    text-align: center;
+    font-size: 8px;
+    
+}
+
+.clipboard
+{
+    width: 30%;
+    height: 40px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    font-size: 8px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.cases {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 250px;
+    height: 150px;
+    
+}
+
+input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;  
+    height: 15px;
+    width: 15px;
+    border: 1px white solid;
+    background-color: black;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+input[type="checkbox"]:after{
+    font-family: "Font Awesome 5 Sharp";
+    content: "\f14a";
+    display: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+
+input[type="checkbox"]:checked{
+    background-color: white;
+}
+
+input[type="checkbox"]:checked:after{
+    display: block;
+}
+
+#generator {
+    width: 250px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    font-size: 8px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+#countsofsymbols{
+    background: none;
+    border: 1px solid white;
+    font-family: inherit;
+    height: 30px;
+    width: 50px;
+    color: white;
+    text-align: center;
+    font-size: 8px;
+}
+
+h4{
+    font-size: 8px;
+}
